@@ -1,0 +1,100 @@
+.search-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 60px;
+  background-color: #ffffff;
+  height: 70px;
+  padding: 0px 20px;
+  z-index: 0;
+}
+.search-fields {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  width: 100%;
+  height: 30px;
+}
+.search-input,
+.search-dropdown {
+  flex: 1;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 12px;
+  width: 100%;
+}
+#numberCon {
+  max-width: 30px;
+}
+.search-dropdown {
+  appearance: none;
+  background: #fff;
+}
+.search-button {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  min-width: 80px;
+  transition: color 0.5s ease, background 0.3s ease;
+}
+.search-button:hover {
+  color: #c6da12;
+  background: #eb5e07;
+}
+.guests-container {
+  display: flex;
+  gap: 10px;
+}
+
+/* Modal overlay */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Modal content */
+.modal-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  text-align: center;
+}
+
+/* Button to close modal */
+.modal-content button {
+  padding: 10px 20px;
+  background-color: #FF6347;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.modal-content button:hover {
+  background-color: #d05d16;
+}
+
+
+@media (max-width: 768px) {
+  #outDate, #inDate{
+    display: none;
+  }
+  .search-container {
+    position: relative;
+    z-index: -99;
+  }
+}

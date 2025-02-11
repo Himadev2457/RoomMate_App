@@ -1,0 +1,224 @@
+/* Container for the entire ParentComponent */
+#parentDiv {
+  margin-top: 80px;
+  width: 100%;
+}
+
+#Hostel-Card-Container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 100%;
+}
+
+/* Heading Style */
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  color: #000000;
+}
+
+/* Style for individual hostel cards */
+.hostel-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 10px 0;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  transition: box-shadow 0.3s ease;
+  max-width: 400px;
+  cursor: pointer;
+}
+
+.hostel-card:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Heading for each hostel */
+.hostel-card h3 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Price and Rating styles */
+.hostel-card p {
+  font-size: 16px;
+  margin: 5px 0;
+  color: #555;
+}
+
+.hostel-card p strong {
+  font-weight: bold;
+  color: #333;
+}
+
+/* Services List */
+.hostel-card ul {
+  list-style-type: disc;
+  margin-left: 20px;
+  color: #555;
+}
+
+.hostel-card ul li {
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+/* Contact Link Styling */
+.hostel-card a {
+  display: inline-block;
+  margin-top: 15px;
+  text-decoration: none;
+  background-color: #25d366;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.hostel-card a:hover {
+  background-color: #128c7e;
+}
+
+/* Image Styling */
+.hostel-card img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+
+/* Mobile & Tablet View: Show only main details */
+@media (max-width: 1024px) {
+  .hostel-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    max-width: 90%;
+    cursor: pointer;
+  }
+
+  /* Hide extra details */
+  .hostel-card ul,
+  .hostel-card a {
+    display: none;
+  }
+
+  /* Ensure these elements are visible */
+  .hostel-card h3,
+  .hostel-card img,
+  .hostel-main-details {
+    display: block;
+  }
+
+  .hostel-main-details {
+    text-align: center;
+    width: 100%;
+  }
+
+  /* Image styling */
+  .hostel-card img {
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    border-radius: 8px;
+  }
+
+  /* Hostel title */
+  .hostel-card h3 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 10px;
+  }
+
+  /* Rating, price, and location styling */
+  .hostel-main-details p {
+    font-size: 14px;
+    color: #666;
+    margin: 5px 0;
+    display: block;
+  }
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .hostel-card {
+    padding: 15px;
+  align-items: start;
+
+  }
+  .contact{
+    display: none;
+  }
+
+  .facilities{
+    display: none;
+  }
+
+  .hostel-card h3 {
+    font-size: 18px;
+  }
+
+  .hostel-card p {
+    font-size: 14px;
+  }
+
+  .hostel-card ul {
+    margin-left: 15px;
+  }
+
+  .hostel-card ul li {
+    font-size: 13px;
+  }
+}
+
+ul {
+  max-height: 150px;
+  min-height: 150px;
+  overflow-y: auto;
+  padding-left: 20px;
+}
+
+#location {
+  white-space: normal;
+  overflow-x: auto;
+  max-width: 100%;
+}
+
+ul::-webkit-scrollbar {
+  display: none;
+}
+
+.no-hostels-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+  text-align: center;
+  color: #555;
+}
+
+.no-hostels-container h2 {
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+.no-hostels-container p {
+  font-size: 16px;
+  color: #888;
+}

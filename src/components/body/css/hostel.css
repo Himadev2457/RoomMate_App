@@ -1,0 +1,280 @@
+.hostel-details-container {
+  padding: 20px;
+  margin-top: 70px; /* Adjusted to ensure content goes below the navbar */
+}
+
+.back-button {
+  background-color: #e75015;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  position: fixed;
+  top: 80px;
+  left: 10px; /* Adjust as needed to position the button horizontally */
+  z-index: 1000; /* Ensures the button stays on top */
+}
+
+.hostel-name {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.rating-stars {
+  margin-bottom: 10px;
+}
+
+.star-icon {
+  color: orange;
+  margin-right: 5px;
+}
+
+.hostel-location {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.images-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+/* Swiper specific styles */
+.image-swiper {
+  width: 100%;
+}
+
+.swipe-image {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+/* Price and Available Rooms */
+.price-rooms-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.hostel-price,
+.hostel-rooms {
+  font-size: 1.2rem;
+}
+
+/* Rating and Contact Container */
+.rating-contact-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.rating-container,
+.contact-container {
+  font-size: 1.2rem;
+}
+
+.rating-stars {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.whatsapp-link {
+  font-size: 1.2rem;
+  color: #25d366;
+  text-decoration: none;
+  margin-top: 20px;
+}
+
+/* Facilities Container */
+.facilities-container {
+  margin-bottom: 20px;
+}
+
+.facility-item {
+  display: flex;
+  align-items: center;
+  padding: 5px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.facility-icon {
+  margin-right: 10px;
+}
+
+.info-link {
+  display: block;
+  margin: 10px 0;
+  font-size: 1.1rem;
+  text-decoration: none;
+  color: #000;
+}
+
+.info-rating {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #f0f0f0;
+  margin-left: 10px;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .hostel-details-container {
+    padding: 15px;
+    margin-top: 80px; /* Adjusted for smaller screens */
+  }
+
+  .back-button {
+    top: 50px;
+    left: 15px;
+    padding: 8px;
+  }
+
+  .hostel-name {
+    font-size: 1.8rem;
+    margin-bottom: 8px;
+  }
+
+  .rating-stars {
+    margin-bottom: 8px;
+  }
+
+  .hostel-location {
+    font-size: 1rem;
+    margin-bottom: 15px;
+  }
+
+  .images-container {
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+
+  .price-rooms-container {
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+
+  .hostel-price,
+  .hostel-rooms {
+    font-size: 1.1rem;
+  }
+
+  .rating-contact-container {
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+
+  .rating-container,
+  .contact-container {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+  }
+
+  .whatsapp-link {
+    font-size: 1.1rem;
+    margin-top: 10px;
+  }
+
+  .facilities-container {
+    margin-bottom: 15px;
+  }
+
+  .facility-item {
+    font-size: 1rem;
+    padding: 5px 0;
+  }
+
+  .info-link {
+    font-size: 1.1rem;
+    margin: 8px 0;
+  }
+}
+
+/* Tablet Responsiveness */
+@media (max-width: 1024px) {
+  .hostel-details-container {
+    padding: 18px;
+    margin-top: 30px;
+  }
+
+  .back-button {
+    top: 70px;
+    left: 12px;
+    padding: 9px;
+  }
+
+  .hostel-name {
+    font-size: 1.9rem;
+    margin-bottom: 9px;
+  }
+
+  .rating-stars {
+    margin-bottom: 9px;
+  }
+
+  .hostel-location {
+    font-size: 1.1rem;
+    margin-bottom: 18px;
+  }
+
+  .images-container {
+    flex-direction: column;
+    margin-bottom: 18px;
+  }
+
+  .price-rooms-container {
+    flex-direction: column;
+    margin-bottom: 18px;
+  }
+
+  .hostel-price,
+  .hostel-rooms {
+    font-size: 1.1rem;
+  }
+
+  .rating-contact-container {
+    flex-direction: column;
+    margin-bottom: 18px;
+  }
+
+  .rating-container,
+  .contact-container {
+    font-size: 1.1rem;
+    margin-bottom: 12px;
+  }
+
+  .whatsapp-link {
+    font-size: 1.1rem;
+    margin-top: 12px;
+  }
+
+  .facilities-container {
+    margin-bottom: 18px;
+  }
+
+  .facility-item {
+    font-size: 1.1rem;
+    padding: 6px 0;
+  }
+
+  .info-link {
+    font-size: 1.2rem;
+    margin: 10px 0;
+  }
+}
+
+.hostel-image{
+  width: 100%;
+}
+/* Slider Images */
+.slider-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 20px; /* Optional, to give a rounded effect */
+}
+
+.image-slider {
+  width: 100%;
+  height: auto; /* Adjust based on your design */
+}

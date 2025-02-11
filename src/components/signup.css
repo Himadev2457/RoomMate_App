@@ -1,0 +1,164 @@
+/* signup.css */
+
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f7fafc; /* Tailwind's gray-100 */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Centering the Form */
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Card Styling for Signup */
+.form-card-signup {
+  width: 100%;
+  max-width: 450px;
+  padding: 2rem;
+  background-color: #ffffff;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 1rem;
+}
+
+.form-title-signup {
+  font-size: 1.75rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #4a90e2; /* Tailwind's blue-500 */
+}
+
+.input-field-signup {
+  width: 90%;
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  border: 1px solid #d1d5db;
+  margin-bottom: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+.input-field-signup:focus {
+  outline: none;
+  border-color: #4a90e2;
+  box-shadow: 0 0 0 2px rgba(66, 153, 225, 0.5);
+}
+
+.input-label-signup {
+  display: block;
+  font-size: 0.875rem;
+  margin-bottom: 0.25rem;
+  font-weight: 500;
+}
+
+/* Buttons */
+.button-signup {
+  width: 95%;
+  background-color: #4a90e2;
+  color: white;
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.button-signup:hover {
+  background-color: #357ABD;
+}
+
+.button-signup:focus {
+  outline: none;
+}
+
+/* Error and Success Messages */
+.error-message-signup {
+  color: #e53e3e;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.success-message-signup {
+  color: #38a169;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+/* Links */
+.link-signup {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.link-signup a {
+  color: #4a90e2;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.link-signup a:hover {
+  color: #357ABD;
+}
+
+/* Animation for form entry */
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+    transform: translateY(30px); /* Start slightly below */
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0); /* Set to original position */
+  }
+}
+
+@keyframes zoomIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.9); /* Slightly smaller at start */
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1); /* Original size */
+  }
+}
+
+/* Apply animation to the form card */
+.form-card-signup {
+  width: 100%;
+  max-width: 450px;
+  padding: 2rem;
+  background-color: #ffffff;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 1rem;
+
+  /* Animation properties */
+  opacity: 0; /* Start invisible */
+  animation: slideIn 0.8s ease-out forwards; /* Use slideIn animation */
+  /* Change to `zoomIn` for a zoom effect */
+}
+
+/* Updated Styles for Login Text */
+.login-text {
+  text-align: center;
+  margin-top: 30px; /* Increased margin for visibility */
+  font-size: 16px;
+  z-index: 1; /* Ensure it's above other content */
+}
+
+.login-link {
+  color: #4a90e2; /* Ensure it's visible */
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.login-link:hover {
+  color: #357ABD; /* Add hover color */
+}

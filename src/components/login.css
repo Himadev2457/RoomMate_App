@@ -1,0 +1,149 @@
+/* login.css */
+
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7fafc; /* Tailwind's gray-100 */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Centering the Form */
+  .flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  /* Card Styling for Login */
+  .form-card-login {
+    width: 100%;
+    max-width: 400px;
+    padding: 2rem;
+    background-color: #ffffff;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 1rem;
+  }
+  
+  .form-title-login {
+    font-size: 1.75rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #3498db; /* Tailwind's blue-500 */
+  }
+  
+  .input-field-login {
+    width: 100%;
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+    border: 1px solid #d1d5db;
+    margin-bottom: 1rem;
+    transition: border-color 0.3s ease;
+  }
+  
+  .input-field-login:focus {
+    outline: none;
+    border-color: #3498db;
+    box-shadow: 0 0 0 2px rgba(66, 153, 225, 0.5);
+  }
+  
+  .input-label-login {
+    display: block;
+    font-size: 0.875rem;
+    margin-bottom: 0.25rem;
+    font-weight: 500;
+  }
+  
+  /* Buttons */
+  .button-login {
+    width: 100%;
+    background-color: #3498db;
+    color: white;
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .button-login:hover {
+    background-color: #2980b9;
+  }
+  
+  .button-login:focus {
+    outline: none;
+  }
+  
+  /* Error and Success Messages */
+  .error-message-login {
+    color: #e53e3e;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .success-message-login {
+    color: #38a169;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  /* Links */
+  .link-login {
+    text-align: center;
+    margin-top: 1rem;
+  }
+  
+  .link-login a {
+    color: #3498db;
+    text-decoration: underline;
+    font-weight: bold;
+  }
+  
+  .link-login a:hover {
+    color: #2980b9;
+  }
+  
+  /* Animation for form entry */
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(20px); /* Slide up effect */
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Apply the animation to the login card */
+  .form-card-login {
+    width: 100%;
+    max-width: 400px;
+    padding: 2rem;
+    background-color: #ffffff;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 1rem;
+  
+    /* Animation properties */
+    opacity: 0; /* Start invisible */
+    animation: fadeIn 0.8s ease-in-out forwards; /* Trigger animation */
+  }
+  
+  /* Add this to login.css */
+.signup-link {
+  margin-top: 20px;
+  font-size: 1rem;
+}
+
+.signup-link a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.signup-link a:hover {
+  text-decoration: underline;
+}
