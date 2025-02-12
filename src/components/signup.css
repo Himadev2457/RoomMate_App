@@ -32,7 +32,7 @@ body {
   font-weight: bold;
   text-align: center;
   margin-bottom: 1.5rem;
-  color: #4a90e2; /* Tailwind's blue-500 */
+  color: #ff4400; /* Tailwind's blue-500 */
 }
 
 .input-field-signup {
@@ -46,7 +46,7 @@ body {
 
 .input-field-signup:focus {
   outline: none;
-  border-color: #4a90e2;
+  border-color: #ff4400;
   box-shadow: 0 0 0 2px rgba(66, 153, 225, 0.5);
 }
 
@@ -59,8 +59,8 @@ body {
 
 /* Buttons */
 .button-signup {
-  width: 95%;
-  background-color: #4a90e2;
+  /* width: 95%; */
+  background-color: #ff6a00;
   color: white;
   padding: 0.75rem;
   border-radius: 0.5rem;
@@ -71,11 +71,18 @@ body {
 }
 
 .button-signup:hover {
-  background-color: #357ABD;
+  background-color: #ff4400;
 }
 
 .button-signup:focus {
   outline: none;
+}
+
+.buttonssignup{
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  gap: 10px;
 }
 
 /* Error and Success Messages */
@@ -86,7 +93,7 @@ body {
 }
 
 .success-message-signup {
-  color: #38a169;
+  color: #ff4400;
   text-align: center;
   margin-bottom: 1rem;
 }
@@ -98,13 +105,13 @@ body {
 }
 
 .link-signup a {
-  color: #4a90e2;
+  color: #ff6a00;
   text-decoration: underline;
   font-weight: bold;
 }
 
 .link-signup a:hover {
-  color: #357ABD;
+  color: #ff2f00;
 }
 
 /* Animation for form entry */
@@ -154,11 +161,11 @@ body {
 }
 
 .login-link {
-  color: #4a90e2; /* Ensure it's visible */
+  color: #ff6a00; /* Ensure it's visible */
   cursor: pointer;
   text-decoration: underline;
 }
 
 .login-link:hover {
-  color: #357ABD; /* Add hover color */
+  color: #ff4400; /* Add hover color */
 }

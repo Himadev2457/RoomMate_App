@@ -211,9 +211,9 @@
   
   .notification-modal {
     position: fixed;
-    top: 200px;
+    top: 100px;
     right: 20px;
-    background-color: #4caf50;
+    background-color: #ff7700;
     color: white;
     padding: 10px 20px;
     border-radius: 5px;

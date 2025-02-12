@@ -163,10 +163,12 @@ const Signup = () => {
                 className="input-field-signup"
               />
             </div>
+            <div className="buttonssignup">
             <button type="submit" className="button-signup">Signup</button>
             <button onClick={handleGuestLogin} className="button-guest-login">
             Continue as Guest
           </button>
+          </div>
           </form>
           <p className="login-text">
             Already have an account? <span className="login-link" onClick={() => navigate("/login")}>Login here</span>

@@ -105,7 +105,7 @@ const Report = () => {
 
       {/* Notification Modal */}
       {showNotification && (
-        <div className="notification">
+        <div className="notification-modal">
           <p>Email Sent Successfully!</p>
         </div>
       )}
