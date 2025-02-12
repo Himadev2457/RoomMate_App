@@ -337,9 +337,9 @@ input[type="range"]:hover {
   display: flex;
   align-items: center;
   gap: 8px;
-  transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
-  opacity: 0;
-  animation: slideIn 0.8s forwards ease-in-out;
+  transition: left 0.3s ease-out, transform 0.3s ease-in-out;
+  z-index: 1100;
+  animation: fadeIn 1s ease-in-out;
 }
 
 .filter-toggle-btn.active {
