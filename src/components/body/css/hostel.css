@@ -263,18 +263,43 @@
   }
 }
 
-.hostel-image{
-  width: 100%;
-}
-/* Slider Images */
-.slider-image {
+/* Image Styling */
+.hostel-image {
   width: 100%;
   height: auto;
-  object-fit: cover;
-  border-radius: 20px; /* Optional, to give a rounded effect */
+  -webkit-mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+  mask-image: linear-gradient(to bottom, rgb(250, 96, 0), rgba(0, 0, 0, 0));
+  transition: mask-image 0.3s ease, -webkit-mask-image 0.3s ease; /* Smooth transition */
 }
 
+.hostel-image:hover {
+  -webkit-mask-image: none;
+  mask-image: none;
+}
+
+
+/* Image Slider Container */
 .image-slider {
-  width: 100%;
-  height: auto; /* Adjust based on your design */
+  width: 50vw;
+  height: 500px; /* Fixed height */
+  border-radius: 20px;
+
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  overflow: hidden; /* Prevents any overflow issues */
+  position: relative;
+}
+
+/* Slider Images */
+.slider-image {
+  width: auto; /* Auto width to maintain aspect ratio */
+  height: 100%; /* Ensures full height coverage */
+  max-width: 100%; /* Ensures it doesn’t exceed the container */
+  object-fit: cover; /* Crops to fill the container without distortion */
+  object-position: center; /* Centers the focal point */
+  border-radius: 20px;
+
+  display: block;
+  margin: auto;
 }

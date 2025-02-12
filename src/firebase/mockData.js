@@ -25,9 +25,11 @@ const hostels = [
     rating: 3.5,
     availableRooms: Math.floor(Math.random() * 25),
     images: [
-      "https://via.placeholder.com/300",
-      "https://via.placeholder.com/300",
-      "https://via.placeholder.com/300",
+      "https://i.pinimg.com/736x/4b/ca/72/4bca729639a53b7e3281a0bc870c15e1.jpg",
+      "https://image.architonic.com/prj2-1/20023395/85-design-the-vietnam-hostel-architonic-279a1275-02-arcit18.jpg",
+      "https://image.architonic.com/prj2-1/20023395/85-design-the-vietnam-hostel-architonic-279a1290-03-arcit18.jpg",
+      "https://image.architonic.com/prj2-1/20023395/85-design-the-vietnam-hostel-architonic-279a1562-01-arcit18.jpg",
+      "https://image.architonic.com/sto3-1/20024332/85-design-the-vietnam-hostel-279a1195-arcit18.jpg",
     ],
   },
   {
@@ -57,10 +59,10 @@ const hostels = [
     availableRooms: Math.floor(Math.random() * 25),
     images: [
       "https://thumbs.dreamstime.com/b/backpackers-hostel-modern-bunk-beds-dorm-room-twelve-people-inside-79935795.jpg",
-      "https://via.placeholder.com/300",
-      "https://via.placeholder.com/300",
-      "https://via.placeholder.com/300",
-      "https://via.placeholder.com/300",
+      "https://i.pinimg.com/736x/49/dc/c0/49dcc0145a21e6116139d67f096c35fd.jpg",
+      "https://www.roadaffair.com/wp-content/uploads/2023/08/avenue-hostel-budapest.webp",
+      "https://www.roadaffair.com/wp-content/uploads/2023/08/flow-spaces-hostel-budapest.webp",
+      "https://www.roadaffair.com/wp-content/uploads/2023/08/maverick-city-lodge-budapest.webp",
     ],
   },
   {
@@ -89,9 +91,11 @@ const hostels = [
     rating: 4.2,
     availableRooms: Math.floor(Math.random() * 25),
     images: [
-      "https://via.placeholder.com/300",
-      "https://via.placeholder.com/300",
-      "https://via.placeholder.com/300",
+      "https://i.pinimg.com/736x/4f/85/df/4f85df1ebf8a8c469902965706f7a7f7.jpg",
+      "https://i.pinimg.com/474x/a1/ac/8f/a1ac8f22cd07baaad0b6f2d8937dbef3.jpg",
+      "https://i.pinimg.com/474x/87/1c/84/871c84ea88577e11a34c847236f71f60.jpg",
+      "https://i.pinimg.com/474x/01/0e/2d/010e2d5c41834e4dc96397a0fd10347f.jpg",
+      "https://i.pinimg.com/474x/e4/a7/64/e4a7646241b41cbe2941ec6bb1177e2e.jpg",
     ],
   },
   {
@@ -120,9 +124,11 @@ const hostels = [
     rating: 4.0,
     availableRooms: Math.floor(Math.random() * 25),
     images: [
-      "https://via.placeholder.com/300",
-      "https://via.placeholder.com/300",
-      "https://via.placeholder.com/300",
+      "https://i.pinimg.com/736x/0e/95/4b/0e954b356f560ad83ac1d7f1b41425ec.jpg",
+      "https://i.pinimg.com/736x/87/13/c8/8713c8105fad1c148c099992a0df7a33.jpg",
+      "https://i.pinimg.com/736x/e9/9a/19/e99a19172050bf5f3e12d8e43958157d.jpg",
+      "https://i.pinimg.com/736x/bd/60/c7/bd60c72e813e21daffbe34048ed6d320.jpg",
+      "https://i.pinimg.com/736x/f3/e0/ee/f3e0eebc104cf6c6073334121f4cbc73.jpg",
     ],
   },
   {
@@ -151,9 +157,11 @@ const hostels = [
     rating: 4.1,
     availableRooms: Math.floor(Math.random() * 25),
     images: [
-      "https://via.placeholder.com/300",
-      "https://via.placeholder.com/300",
-      "https://via.placeholder.com/300",
+      "https://i.pinimg.com/736x/ae/99/d8/ae99d84f62499dbb4227f87d27bba127.jpg",
+      "https://i.pinimg.com/736x/5d/d2/1a/5dd21a13b680911cf5d167ed0ab26008.jpg",
+      "https://i.pinimg.com/736x/29/6b/6e/296b6e549bdc349d6347f3a01d0e3815.jpg",
+      "https://i.pinimg.com/736x/a4/f5/b6/a4f5b61d1f1277f9091f9fd57eeb92c0.jpg",
+      "https://i.pinimg.com/736x/3a/3b/82/3a3b826fe55298288c189da4e80727db.jpg",
     ],
   },
   {
@@ -182,9 +190,11 @@ const hostels = [
     rating: 4.5,
     availableRooms: Math.floor(Math.random() * 25),
     images: [
-      "https://via.placeholder.com/300",
-      "https://via.placeholder.com/300",
-      "https://via.placeholder.com/300",
+      "https://i.pinimg.com/736x/9e/e4/c0/9ee4c02b92940ab81be88432b7780831.jpg",
+      "https://i.pinimg.com/736x/e8/b3/1f/e8b31fc9d16a14cbba61ed07e50f254f.jpg",
+      "https://i.pinimg.com/736x/91/64/f6/9164f6cfaf8fe4d44575d9097f51081a.jpg",
+      "https://i.pinimg.com/736x/c1/f2/b1/c1f2b17a6911905148eba2f7f5b544e3.jpg",
+      "https://i.pinimg.com/736x/c3/e3/53/c3e3530e1891ad7432830f46d7494a50.jpg",
     ],
   },
   {
@@ -213,9 +223,12 @@ const hostels = [
     rating: 4.6,
     availableRooms: Math.floor(Math.random() * 25),
     images: [
-      "https://via.placeholder.com/300",
-      "https://via.placeholder.com/300",
-      "https://via.placeholder.com/300",
+      "https://i.pinimg.com/736x/2b/a2/71/2ba271be0fa62193b2ae042196329a84.jpg",
+      "https://i.pinimg.com/736x/f8/4d/e1/f84de19d1efe9c031e662f6d7ef3bc08.jpg",
+      "https://i.pinimg.com/736x/e3/ac/3d/e3ac3ddfeab03a4d34689cafb8da3e5f.jpg",
+      "https://i.pinimg.com/736x/1f/a9/04/1fa9049399109ee6a940df207f25b887.jpg",
+      "https://i.pinimg.com/736x/84/b7/51/84b75166f0112a0a60eae3c4d20f8672.jpg",
+      "https://i.pinimg.com/474x/39/6c/3f/396c3f79a532a8874cd2a68cb466b721.jpg",
     ],
   },
   {
@@ -244,9 +257,11 @@ const hostels = [
     rating: 4.3,
     availableRooms: Math.floor(Math.random() * 25),
     images: [
-      "https://via.placeholder.com/300",
-      "https://via.placeholder.com/300",
-      "https://via.placeholder.com/300",
+      "https://i.pinimg.com/736x/5d/33/f5/5d33f5ea4ebbc292b532f09de50a6490.jpg",
+      "https://i.pinimg.com/736x/a0/4f/f2/a04ff276c1847f4024342b901032b369.jpg",
+      "https://i.pinimg.com/736x/e2/19/43/e21943dc747cf443eb119f8d7304c8f5.jpg",
+      "https://i.pinimg.com/736x/f9/1a/6b/f91a6b5af36441bffeaeb0ba99767cfc.jpg",
+      "https://i.pinimg.com/736x/14/4d/3c/144d3c06339e095f7477af2d078cf002.jpg"
     ],
   },
   {
@@ -275,9 +290,11 @@ const hostels = [
     rating: 4.0,
     availableRooms: Math.floor(Math.random() * 25),
     images: [
-      "https://via.placeholder.com/300",
-      "https://via.placeholder.com/300",
-      "https://via.placeholder.com/300",
+      "https://i.pinimg.com/736x/b8/5f/84/b85f84dcb1821dfb54dd31bfa8ff1fab.jpg",
+      "https://i.pinimg.com/736x/df/80/45/df8045cfa4cab87c4edb2e084c75bd99.jpg",
+      "https://i.pinimg.com/736x/ec/eb/f2/ecebf295522aae394635b31c54d645ae.jpg",
+      "https://i.pinimg.com/736x/cf/aa/ed/cfaaeda860025c5def2b234a8b06a7cd.jpg",
+      "https://i.pinimg.com/736x/36/d0/26/36d026159746382b75f680e10c9ce5e3.jpg",
     ],
   },
   {
@@ -306,9 +323,10 @@ const hostels = [
     rating: 4.4,
     availableRooms: Math.floor(Math.random() * 25),
     images: [
-      "https://via.placeholder.com/300",
-      "https://via.placeholder.com/300",
-      "https://via.placeholder.com/300",
+      "https://i.pinimg.com/736x/58/e7/98/58e798cb25b2d6b2ea4b30ed5f76bbe8.jpg",
+      "https://i.pinimg.com/736x/fa/47/b8/fa47b8525061b399871180e022676070.jpg",
+      "https://i.pinimg.com/736x/7f/c9/9d/7fc99d0eda26aa9aa16d831ac833e149.jpg",
+      "https://i.pinimg.com/736x/af/96/f7/af96f7c5002a64b426d2c07c7dba8b4b.jpg,"
     ],
   },
   {
@@ -336,9 +354,9 @@ const hostels = [
     rating: 4.2,
     availableRooms: Math.floor(Math.random() * 25),
     images: [
-      "https://via.placeholder.com/300",
-      "https://via.placeholder.com/300",
-      "https://via.placeholder.com/300",
+      "https://i.pinimg.com/736x/24/ee/88/24ee88ad4a6bf41605d4cd8f26d792ff.jpg",
+      "https://i.pinimg.com/736x/eb/b1/e3/ebb1e3cd5e9159a72d8951aced410f6a.jpg",
+      "https://i.pinimg.com/736x/8b/09/9e/8b099eef0d309abb839e12f95b2dafbe.jpg",
     ],
   },
   {
@@ -366,9 +384,10 @@ const hostels = [
     rating: 4.1,
     availableRooms: Math.floor(Math.random() * 25),
     images: [
-      "https://via.placeholder.com/300",
-      "https://via.placeholder.com/300",
-      "https://via.placeholder.com/300",
+      "https://i.pinimg.com/736x/c8/a8/21/c8a8219d87bb3708d8845d48b77dad0d.jpg",
+      "https://i.pinimg.com/736x/44/b6/a2/44b6a24020bb323bf9c0943d2fc539e7.jpg",
+      "https://i.pinimg.com/736x/b3/89/46/b3894653fcdf26cff028d0f6f02bd044.jpg",
+      "https://i.pinimg.com/736x/c1/c9/5b/c1c95b90ec2e30af4349dd98c1601ddd.jpg",
     ],
   },
   // Add more hostels here...
@@ -398,9 +417,12 @@ const hostels = [
     rating: 4.5,
     availableRooms: Math.floor(Math.random() * 25),
     images: [
-      "https://via.placeholder.com/300",
-      "https://via.placeholder.com/300",
-      "https://via.placeholder.com/300",
+      "https://i.pinimg.com/474x/e4/a7/64/e4a7646241b41cbe2941ec6bb1177e2e.jpg",
+      "https://i.pinimg.com/736x/4f/85/df/4f85df1ebf8a8c469902965706f7a7f7.jpg",
+      "https://i.pinimg.com/474x/a1/ac/8f/a1ac8f22cd07baaad0b6f2d8937dbef3.jpg",
+      "https://i.pinimg.com/474x/87/1c/84/871c84ea88577e11a34c847236f71f60.jpg",
+      "https://i.pinimg.com/474x/01/0e/2d/010e2d5c41834e4dc96397a0fd10347f.jpg",
+      
     ],
   },
   {
@@ -429,9 +451,10 @@ const hostels = [
     rating: 4.8,
     availableRooms: Math.floor(Math.random() * 25),
     images: [
-      "https://via.placeholder.com/300",
-      "https://via.placeholder.com/300",
-      "https://via.placeholder.com/300",
+      "https://i.pinimg.com/736x/b3/89/46/b3894653fcdf26cff028d0f6f02bd044.jpg",
+     "https://i.pinimg.com/736x/c8/a8/21/c8a8219d87bb3708d8845d48b77dad0d.jpg",
+      "https://i.pinimg.com/736x/44/b6/a2/44b6a24020bb323bf9c0943d2fc539e7.jpg",
+      "https://i.pinimg.com/736x/c1/c9/5b/c1c95b90ec2e30af4349dd98c1601ddd.jpg",
     ],
   },
   {
@@ -460,9 +483,10 @@ const hostels = [
     rating: 3.5,
     availableRooms: Math.floor(Math.random() * 25),
     images: [
-      "https://via.placeholder.com/300",
-      "https://via.placeholder.com/300",
-      "https://via.placeholder.com/300",
+      "https://i.pinimg.com/736x/44/b6/a2/44b6a24020bb323bf9c0943d2fc539e7.jpg",
+      "https://i.pinimg.com/736x/c8/a8/21/c8a8219d87bb3708d8845d48b77dad0d.jpg",
+      "https://i.pinimg.com/736x/b3/89/46/b3894653fcdf26cff028d0f6f02bd044.jpg",
+      "https://i.pinimg.com/736x/c1/c9/5b/c1c95b90ec2e30af4349dd98c1601ddd.jpg",
     ],
   },
   {
@@ -491,9 +515,9 @@ const hostels = [
     rating: 4.0,
     availableRooms: Math.floor(Math.random() * 25),
     images: [
-      "https://via.placeholder.com/300",
-      "https://via.placeholder.com/300",
-      "https://via.placeholder.com/300",
+      "https://i.pinimg.com/736x/eb/b1/e3/ebb1e3cd5e9159a72d8951aced410f6a.jpg",
+      "https://i.pinimg.com/736x/24/ee/88/24ee88ad4a6bf41605d4cd8f26d792ff.jpg",
+      "https://i.pinimg.com/736x/8b/09/9e/8b099eef0d309abb839e12f95b2dafbe.jpg",
     ],
   },
   {
@@ -522,9 +546,10 @@ const hostels = [
     rating: 4.9,
     availableRooms: Math.floor(Math.random() * 25),
     images: [
-      "https://via.placeholder.com/300",
-      "https://via.placeholder.com/300",
-      "https://via.placeholder.com/300",
+      "https://i.pinimg.com/736x/fa/47/b8/fa47b8525061b399871180e022676070.jpg",
+      "https://i.pinimg.com/736x/58/e7/98/58e798cb25b2d6b2ea4b30ed5f76bbe8.jpg",
+      "https://i.pinimg.com/736x/7f/c9/9d/7fc99d0eda26aa9aa16d831ac833e149.jpg",
+      "https://i.pinimg.com/736x/af/96/f7/af96f7c5002a64b426d2c07c7dba8b4b.jpg,"
     ],
   },
   {
@@ -553,9 +578,12 @@ const hostels = [
     rating: 4.3,
     availableRooms: Math.floor(Math.random() * 25),
     images: [
-      "https://via.placeholder.com/300",
-      "https://via.placeholder.com/300",
-      "https://via.placeholder.com/300",
+      "https://i.pinimg.com/736x/cf/aa/ed/cfaaeda860025c5def2b234a8b06a7cd.jpg",
+      "https://i.pinimg.com/736x/36/d0/26/36d026159746382b75f680e10c9ce5e3.jpg",
+      "https://i.pinimg.com/736x/b8/5f/84/b85f84dcb1821dfb54dd31bfa8ff1fab.jpg",
+      "https://i.pinimg.com/736x/df/80/45/df8045cfa4cab87c4edb2e084c75bd99.jpg",
+      "https://i.pinimg.com/736x/ec/eb/f2/ecebf295522aae394635b31c54d645ae.jpg",
+      
     ],
   },
   {
@@ -584,9 +612,11 @@ const hostels = [
     rating: 4.1,
     availableRooms: Math.floor(Math.random() * 25),
     images: [
-      "https://via.placeholder.com/300",
-      "https://via.placeholder.com/300",
-      "https://via.placeholder.com/300",
+      "https://i.pinimg.com/736x/a0/4f/f2/a04ff276c1847f4024342b901032b369.jpg",
+      "https://i.pinimg.com/736x/e2/19/43/e21943dc747cf443eb119f8d7304c8f5.jpg",
+      "https://i.pinimg.com/736x/5d/33/f5/5d33f5ea4ebbc292b532f09de50a6490.jpg",
+      "https://i.pinimg.com/736x/f9/1a/6b/f91a6b5af36441bffeaeb0ba99767cfc.jpg",
+      "https://i.pinimg.com/736x/14/4d/3c/144d3c06339e095f7477af2d078cf002.jpg"
     ],
   },
   {
@@ -615,9 +645,12 @@ const hostels = [
     rating: 4.2,
     availableRooms: Math.floor(Math.random() * 25),
     images: [
-      "https://via.placeholder.com/300",
-      "https://via.placeholder.com/300",
-      "https://via.placeholder.com/300",
+      "https://i.pinimg.com/736x/1f/a9/04/1fa9049399109ee6a940df207f25b887.jpg",
+      "https://i.pinimg.com/736x/84/b7/51/84b75166f0112a0a60eae3c4d20f8672.jpg",
+      "https://i.pinimg.com/736x/2b/a2/71/2ba271be0fa62193b2ae042196329a84.jpg",
+      "https://i.pinimg.com/736x/f8/4d/e1/f84de19d1efe9c031e662f6d7ef3bc08.jpg",
+      "https://i.pinimg.com/736x/e3/ac/3d/e3ac3ddfeab03a4d34689cafb8da3e5f.jpg",
+      "https://i.pinimg.com/474x/39/6c/3f/396c3f79a532a8874cd2a68cb466b721.jpg",
     ],
   },
   {
@@ -646,9 +679,12 @@ const hostels = [
     rating: 4.1,
     availableRooms: Math.floor(Math.random() * 25),
     images: [
-      "https://via.placeholder.com/300",
-      "https://via.placeholder.com/300",
-      "https://via.placeholder.com/300",
+      "https://i.pinimg.com/736x/84/b7/51/84b75166f0112a0a60eae3c4d20f8672.jpg",
+      "https://i.pinimg.com/474x/39/6c/3f/396c3f79a532a8874cd2a68cb466b721.jpg",
+     "https://i.pinimg.com/736x/2b/a2/71/2ba271be0fa62193b2ae042196329a84.jpg",
+      "https://i.pinimg.com/736x/f8/4d/e1/f84de19d1efe9c031e662f6d7ef3bc08.jpg",
+      "https://i.pinimg.com/736x/e3/ac/3d/e3ac3ddfeab03a4d34689cafb8da3e5f.jpg",
+      "https://i.pinimg.com/736x/1f/a9/04/1fa9049399109ee6a940df207f25b887.jpg",
     ],
   },
   {
@@ -677,9 +713,12 @@ const hostels = [
     rating: 4.4,
     availableRooms: Math.floor(Math.random() * 25),
     images: [
-      "https://via.placeholder.com/300",
-      "https://via.placeholder.com/300",
-      "https://via.placeholder.com/300",
+      "https://i.pinimg.com/736x/c1/f2/b1/c1f2b17a6911905148eba2f7f5b544e3.jpg",
+      "https://i.pinimg.com/736x/c3/e3/53/c3e3530e1891ad7432830f46d7494a50.jpg",
+      "https://i.pinimg.com/736x/9e/e4/c0/9ee4c02b92940ab81be88432b7780831.jpg",
+      "https://i.pinimg.com/736x/e8/b3/1f/e8b31fc9d16a14cbba61ed07e50f254f.jpg",
+      "https://i.pinimg.com/736x/91/64/f6/9164f6cfaf8fe4d44575d9097f51081a.jpg",
+
     ],
   },
   {
@@ -708,9 +747,11 @@ const hostels = [
     rating: 3.8,
     availableRooms: Math.floor(Math.random() * 25),
     images: [
-      "https://via.placeholder.com/300",
-      "https://via.placeholder.com/300",
-      "https://via.placeholder.com/300",
+      "https://i.pinimg.com/736x/c3/e3/53/c3e3530e1891ad7432830f46d7494a50.jpg",
+      "https://i.pinimg.com/736x/9e/e4/c0/9ee4c02b92940ab81be88432b7780831.jpg",
+      "https://i.pinimg.com/736x/c1/f2/b1/c1f2b17a6911905148eba2f7f5b544e3.jpg",
+      "https://i.pinimg.com/736x/e8/b3/1f/e8b31fc9d16a14cbba61ed07e50f254f.jpg",
+      "https://i.pinimg.com/736x/91/64/f6/9164f6cfaf8fe4d44575d9097f51081a.jpg",
     ],
   },
   {
@@ -739,9 +780,11 @@ const hostels = [
     rating: 4.5,
     availableRooms: Math.floor(Math.random() * 25),
     images: [
-      "https://via.placeholder.com/300",
-      "https://via.placeholder.com/300",
-      "https://via.placeholder.com/300",
+      "https://i.pinimg.com/736x/5d/d2/1a/5dd21a13b680911cf5d167ed0ab26008.jpg",
+      "https://i.pinimg.com/736x/29/6b/6e/296b6e549bdc349d6347f3a01d0e3815.jpg",
+      "https://i.pinimg.com/736x/a4/f5/b6/a4f5b61d1f1277f9091f9fd57eeb92c0.jpg",
+      "https://i.pinimg.com/736x/3a/3b/82/3a3b826fe55298288c189da4e80727db.jpg",
+      "https://i.pinimg.com/736x/ae/99/d8/ae99d84f62499dbb4227f87d27bba127.jpg",
     ],
   },
   {
@@ -770,9 +813,12 @@ const hostels = [
     rating: 4.7,
     availableRooms: Math.floor(Math.random() * 25),
     images: [
-      "https://via.placeholder.com/300",
-      "https://via.placeholder.com/300",
-      "https://via.placeholder.com/300",
+      "https://i.pinimg.com/736x/5d/d2/1a/5dd21a13b680911cf5d167ed0ab26008.jpg",
+      "https://i.pinimg.com/736x/29/6b/6e/296b6e549bdc349d6347f3a01d0e3815.jpg",
+      "https://i.pinimg.com/736x/a4/f5/b6/a4f5b61d1f1277f9091f9fd57eeb92c0.jpg",
+      "https://i.pinimg.com/736x/3a/3b/82/3a3b826fe55298288c189da4e80727db.jpg",
+      "https://i.pinimg.com/736x/ae/99/d8/ae99d84f62499dbb4227f87d27bba127.jpg",
+
     ],
   },
   {
@@ -801,9 +847,12 @@ const hostels = [
     rating: 4.2,
     availableRooms: Math.floor(Math.random() * 25),
     images: [
-      "https://via.placeholder.com/300",
-      "https://via.placeholder.com/300",
-      "https://via.placeholder.com/300",
+      "https://image.architonic.com/prj2-1/20023395/85-design-the-vietnam-hostel-architonic-279a1275-02-arcit18.jpg",
+      "https://image.architonic.com/prj2-1/20023395/85-design-the-vietnam-hostel-architonic-279a1290-03-arcit18.jpg",
+      "https://image.architonic.com/prj2-1/20023395/85-design-the-vietnam-hostel-architonic-279a1562-01-arcit18.jpg",
+      "https://image.architonic.com/sto3-1/20024332/85-design-the-vietnam-hostel-279a1195-arcit18.jpg",
+      "https://i.pinimg.com/736x/4b/ca/72/4bca729639a53b7e3281a0bc870c15e1.jpg",
+
     ],
   },
   {
@@ -832,9 +881,12 @@ const hostels = [
     rating: 4.0,
     availableRooms: Math.floor(Math.random() * 25),
     images: [
-      "https://via.placeholder.com/300",
-      "https://via.placeholder.com/300",
-      "https://via.placeholder.com/300",
+      "https://i.pinimg.com/474x/a1/ac/8f/a1ac8f22cd07baaad0b6f2d8937dbef3.jpg",
+      "https://i.pinimg.com/474x/87/1c/84/871c84ea88577e11a34c847236f71f60.jpg",
+      "https://i.pinimg.com/474x/01/0e/2d/010e2d5c41834e4dc96397a0fd10347f.jpg",
+      "https://i.pinimg.com/474x/e4/a7/64/e4a7646241b41cbe2941ec6bb1177e2e.jpg",
+      "https://i.pinimg.com/736x/4f/85/df/4f85df1ebf8a8c469902965706f7a7f7.jpg",
+
     ],
   },
   {
@@ -863,9 +915,11 @@ const hostels = [
     rating: 4.3,
     availableRooms: Math.floor(Math.random() * 25),
     images: [
-      "https://via.placeholder.com/300",
-      "https://via.placeholder.com/300",
-      "https://via.placeholder.com/300",
+      "https://i.pinimg.com/736x/c1/f2/b1/c1f2b17a6911905148eba2f7f5b544e3.jpg",
+      "https://i.pinimg.com/736x/9e/e4/c0/9ee4c02b92940ab81be88432b7780831.jpg",
+      "https://i.pinimg.com/736x/e8/b3/1f/e8b31fc9d16a14cbba61ed07e50f254f.jpg",
+      "https://i.pinimg.com/736x/91/64/f6/9164f6cfaf8fe4d44575d9097f51081a.jpg",
+      "https://i.pinimg.com/736x/c3/e3/53/c3e3530e1891ad7432830f46d7494a50.jpg",
     ],
   },
   {
@@ -894,9 +948,12 @@ const hostels = [
     rating: 4.1,
     availableRooms: Math.floor(Math.random() * 25),
     images: [
-      "https://via.placeholder.com/300",
-      "https://via.placeholder.com/300",
-      "https://via.placeholder.com/300",
+      "https://i.pinimg.com/736x/87/13/c8/8713c8105fad1c148c099992a0df7a33.jpg",
+      "https://i.pinimg.com/736x/e9/9a/19/e99a19172050bf5f3e12d8e43958157d.jpg",
+      "https://i.pinimg.com/736x/bd/60/c7/bd60c72e813e21daffbe34048ed6d320.jpg",
+      "https://i.pinimg.com/736x/f3/e0/ee/f3e0eebc104cf6c6073334121f4cbc73.jpg",
+      "https://i.pinimg.com/736x/0e/95/4b/0e954b356f560ad83ac1d7f1b41425ec.jpg",
+
     ],
   },
   {
@@ -925,9 +982,12 @@ const hostels = [
     rating: 4.4,
     availableRooms: Math.floor(Math.random() * 25),
     images: [
-      "https://via.placeholder.com/300",
-      "https://via.placeholder.com/300",
-      "https://via.placeholder.com/300",
+      "https://i.pinimg.com/736x/49/dc/c0/49dcc0145a21e6116139d67f096c35fd.jpg",
+      "https://www.roadaffair.com/wp-content/uploads/2023/08/avenue-hostel-budapest.webp",
+      "https://www.roadaffair.com/wp-content/uploads/2023/08/flow-spaces-hostel-budapest.webp",
+      "https://www.roadaffair.com/wp-content/uploads/2023/08/maverick-city-lodge-budapest.webp",
+      "https://thumbs.dreamstime.com/b/backpackers-hostel-modern-bunk-beds-dorm-room-twelve-people-inside-79935795.jpg",
+
     ],
   },
   {
@@ -950,9 +1010,11 @@ const hostels = [
     rating: 4.1,
     availableRooms: Math.floor(Math.random() * 25),
     images: [
-      "https://via.placeholder.com/300",
-      "https://via.placeholder.com/300",
-      "https://via.placeholder.com/300",
+      "https://i.pinimg.com/736x/29/6b/6e/296b6e549bdc349d6347f3a01d0e3815.jpg",
+      "https://i.pinimg.com/736x/a4/f5/b6/a4f5b61d1f1277f9091f9fd57eeb92c0.jpg",
+      "https://i.pinimg.com/736x/3a/3b/82/3a3b826fe55298288c189da4e80727db.jpg",
+      "https://i.pinimg.com/736x/ae/99/d8/ae99d84f62499dbb4227f87d27bba127.jpg",
+      "https://i.pinimg.com/736x/5d/d2/1a/5dd21a13b680911cf5d167ed0ab26008.jpg",
     ],
   },
   {
@@ -975,9 +1037,11 @@ const hostels = [
     rating: 4.3,
     availableRooms: Math.floor(Math.random() * 25),
     images: [
-      "https://via.placeholder.com/300",
-      "https://via.placeholder.com/300",
-      "https://via.placeholder.com/300",
+      "https://image.architonic.com/prj2-1/20023395/85-design-the-vietnam-hostel-architonic-279a1290-03-arcit18.jpg",
+      "https://image.architonic.com/prj2-1/20023395/85-design-the-vietnam-hostel-architonic-279a1562-01-arcit18.jpg",
+      "https://image.architonic.com/sto3-1/20024332/85-design-the-vietnam-hostel-279a1195-arcit18.jpg",
+      "https://i.pinimg.com/736x/4b/ca/72/4bca729639a53b7e3281a0bc870c15e1.jpg",
+      "https://image.architonic.com/prj2-1/20023395/85-design-the-vietnam-hostel-architonic-279a1275-02-arcit18.jpg",
     ],
   },
   {
@@ -1000,9 +1064,10 @@ const hostels = [
     rating: 4.6,
     availableRooms: Math.floor(Math.random() * 25),
     images: [
-      "https://via.placeholder.com/300",
-      "https://via.placeholder.com/300",
-      "https://via.placeholder.com/300",
+      "https://i.pinimg.com/736x/3e/73/cc/3e73cc49c5c9de645a69679e139b4f43.jpg",
+      "https://i.pinimg.com/736x/65/28/72/6528724a6c457d01a3442a2947ca5ec4.jpg",
+      "https://i.pinimg.com/736x/2f/26/d5/2f26d5c320f81e6363366e40a924659b.jpg",
+      "https://i.pinimg.com/736x/9f/75/07/9f750756649d65c04d4894cc94d70623.jpg"
     ],
   },
   {
@@ -1025,9 +1090,11 @@ const hostels = [
     rating: 4.4,
     availableRooms: Math.floor(Math.random() * 25),
     images: [
-      "https://via.placeholder.com/300",
-      "https://via.placeholder.com/300",
-      "https://via.placeholder.com/300",
+      "https://i.pinimg.com/736x/29/6b/6e/296b6e549bdc349d6347f3a01d0e3815.jpg",
+      "https://i.pinimg.com/736x/a4/f5/b6/a4f5b61d1f1277f9091f9fd57eeb92c0.jpg",
+      "https://i.pinimg.com/736x/3a/3b/82/3a3b826fe55298288c189da4e80727db.jpg",
+      "https://i.pinimg.com/736x/ae/99/d8/ae99d84f62499dbb4227f87d27bba127.jpg",
+      "https://i.pinimg.com/736x/5d/d2/1a/5dd21a13b680911cf5d167ed0ab26008.jpg",
     ],
   },
   {
@@ -1051,9 +1118,12 @@ const hostels = [
     rating: 4.5,
     availableRooms: Math.floor(Math.random() * 25),
     images: [
-      "https://via.placeholder.com/300",
-      "https://via.placeholder.com/300",
-      "https://via.placeholder.com/300",
+      "https://image.architonic.com/prj2-1/20023395/85-design-the-vietnam-hostel-architonic-279a1562-01-arcit18.jpg",
+      "https://image.architonic.com/sto3-1/20024332/85-design-the-vietnam-hostel-279a1195-arcit18.jpg",
+      "https://i.pinimg.com/736x/4b/ca/72/4bca729639a53b7e3281a0bc870c15e1.jpg",
+      "https://image.architonic.com/prj2-1/20023395/85-design-the-vietnam-hostel-architonic-279a1275-02-arcit18.jpg",
+      "https://image.architonic.com/prj2-1/20023395/85-design-the-vietnam-hostel-architonic-279a1290-03-arcit18.jpg",
+
     ],
   },
   {
@@ -1076,9 +1146,12 @@ const hostels = [
     rating: 4.0,
     availableRooms: Math.floor(Math.random() * 25),
     images: [
-      "https://via.placeholder.com/300",
-      "https://via.placeholder.com/300",
-      "https://via.placeholder.com/300",
+      "https://i.pinimg.com/474x/87/1c/84/871c84ea88577e11a34c847236f71f60.jpg",
+      "https://i.pinimg.com/474x/01/0e/2d/010e2d5c41834e4dc96397a0fd10347f.jpg",
+      "https://i.pinimg.com/474x/e4/a7/64/e4a7646241b41cbe2941ec6bb1177e2e.jpg",
+      "https://i.pinimg.com/736x/4f/85/df/4f85df1ebf8a8c469902965706f7a7f7.jpg",
+      "https://i.pinimg.com/474x/a1/ac/8f/a1ac8f22cd07baaad0b6f2d8937dbef3.jpg",
+
     ],
   },
   {
@@ -1101,9 +1174,12 @@ const hostels = [
     rating: 4.7,
     availableRooms: Math.floor(Math.random() * 25),
     images: [
-      "https://via.placeholder.com/300",
-      "https://via.placeholder.com/300",
-      "https://via.placeholder.com/300",
+      "https://i.pinimg.com/736x/e9/9a/19/e99a19172050bf5f3e12d8e43958157d.jpg",
+      "https://i.pinimg.com/736x/bd/60/c7/bd60c72e813e21daffbe34048ed6d320.jpg",
+      "https://i.pinimg.com/736x/f3/e0/ee/f3e0eebc104cf6c6073334121f4cbc73.jpg",
+      "https://i.pinimg.com/736x/0e/95/4b/0e954b356f560ad83ac1d7f1b41425ec.jpg",
+      "https://i.pinimg.com/736x/87/13/c8/8713c8105fad1c148c099992a0df7a33.jpg",
+
     ],
   },
   {
@@ -1126,9 +1202,10 @@ const hostels = [
     rating: 4.2,
     availableRooms: Math.floor(Math.random() * 25),
     images: [
-      "https://via.placeholder.com/300",
-      "https://via.placeholder.com/300",
-      "https://via.placeholder.com/300",
+      "https://i.pinimg.com/736x/a4/f5/b6/a4f5b61d1f1277f9091f9fd57eeb92c0.jpg",
+      "https://i.pinimg.com/736x/3a/3b/82/3a3b826fe55298288c189da4e80727db.jpg",
+      "https://i.pinimg.com/736x/ae/99/d8/ae99d84f62499dbb4227f87d27bba127.jpg",
+      "https://i.pinimg.com/736x/29/6b/6e/296b6e549bdc349d6347f3a01d0e3815.jpg",
     ],
   },
   {
@@ -1152,9 +1229,11 @@ const hostels = [
     rating: 4.4,
     availableRooms: Math.floor(Math.random() * 25),
     images: [
-      "https://via.placeholder.com/300",
-      "https://via.placeholder.com/300",
-      "https://via.placeholder.com/300",
+      "https://i.pinimg.com/736x/ce/fd/2a/cefd2a38edbc6e70858242faffc08bd1.jpg",
+      "https://i.pinimg.com/736x/0f/67/93/0f6793fac413ad814ceeda46e3d1e103.jpg",
+      "https://i.pinimg.com/736x/2d/2c/9c/2d2c9c8388016e4be02b3128c0081fe5.jpg",
+      "https://i.pinimg.com/736x/fb/12/a7/fb12a74adee5fef13000287b07b31455.jpg",
+      "https://i.pinimg.com/474x/94/4d/1c/944d1cf06f5f80bb603218c497c1360a.jpg"
     ],
   },
   {
@@ -1177,9 +1256,13 @@ const hostels = [
     rating: 4.3,
     availableRooms: Math.floor(Math.random() * 25),
     images: [
-      "https://via.placeholder.com/300",
-      "https://via.placeholder.com/300",
-      "https://via.placeholder.com/300",
+      "https://www.roadaffair.com/wp-content/uploads/2023/08/avenue-hostel-budapest.webp",
+      "https://www.roadaffair.com/wp-content/uploads/2023/08/flow-spaces-hostel-budapest.webp",
+      "https://www.roadaffair.com/wp-content/uploads/2023/08/maverick-city-lodge-budapest.webp",
+      "https://thumbs.dreamstime.com/b/backpackers-hostel-modern-bunk-beds-dorm-room-twelve-people-inside-79935795.jpg",
+"https://i.pinimg.com/736x/49/dc/c0/49dcc0145a21e6116139d67f096c35fd.jpg",
+      
+
     ],
   },
   {
@@ -1203,9 +1286,10 @@ const hostels = [
     rating: 4.6,
     availableRooms: Math.floor(Math.random() * 25),
     images: [
-      "https://via.placeholder.com/300",
-      "https://via.placeholder.com/300",
-      "https://via.placeholder.com/300",
+      "https://i.pinimg.com/474x/e4/a7/64/e4a7646241b41cbe2941ec6bb1177e2e.jpg",
+      "https://i.pinimg.com/736x/4f/85/df/4f85df1ebf8a8c469902965706f7a7f7.jpg",
+      "https://i.pinimg.com/474x/87/1c/84/871c84ea88577e11a34c847236f71f60.jpg",
+      "https://i.pinimg.com/474x/01/0e/2d/010e2d5c41834e4dc96397a0fd10347f.jpg",
     ],
   },
   {
@@ -1228,9 +1312,11 @@ const hostels = [
     rating: 4.0,
     availableRooms: Math.floor(Math.random() * 25),
     images: [
-      "https://via.placeholder.com/300",
-      "https://via.placeholder.com/300",
-      "https://via.placeholder.com/300",
+      "https://i.pinimg.com/736x/a4/f5/b6/a4f5b61d1f1277f9091f9fd57eeb92c0.jpg",
+      "https://i.pinimg.com/736x/3a/3b/82/3a3b826fe55298288c189da4e80727db.jpg",
+      "https://i.pinimg.com/736x/ae/99/d8/ae99d84f62499dbb4227f87d27bba127.jpg",
+      "https://i.pinimg.com/736x/5d/d2/1a/5dd21a13b680911cf5d167ed0ab26008.jpg",
+      "https://i.pinimg.com/736x/29/6b/6e/296b6e549bdc349d6347f3a01d0e3815.jpg",
     ],
   },
   {
@@ -1253,9 +1339,11 @@ const hostels = [
     rating: 4.2,
     availableRooms: Math.floor(Math.random() * 25),
     images: [
-      "https://via.placeholder.com/300",
-      "https://via.placeholder.com/300",
-      "https://via.placeholder.com/300",
+      "https://i.pinimg.com/736x/bd/60/c7/bd60c72e813e21daffbe34048ed6d320.jpg",
+      "https://i.pinimg.com/736x/f3/e0/ee/f3e0eebc104cf6c6073334121f4cbc73.jpg",
+      "https://i.pinimg.com/736x/0e/95/4b/0e954b356f560ad83ac1d7f1b41425ec.jpg",
+      "https://i.pinimg.com/736x/e9/9a/19/e99a19172050bf5f3e12d8e43958157d.jpg",
+
     ],
   },
   {
@@ -1277,9 +1365,10 @@ const hostels = [
     rating: 4.3,
     availableRooms: Math.floor(Math.random() * 25),
     images: [
-      "https://via.placeholder.com/300",
-      "https://via.placeholder.com/300",
-      "https://via.placeholder.com/300",
+      "https://i.pinimg.com/474x/01/0e/2d/010e2d5c41834e4dc96397a0fd10347f.jpg",
+      "https://i.pinimg.com/474x/e4/a7/64/e4a7646241b41cbe2941ec6bb1177e2e.jpg",
+      "https://i.pinimg.com/736x/4f/85/df/4f85df1ebf8a8c469902965706f7a7f7.jpg",
+      "https://i.pinimg.com/474x/87/1c/84/871c84ea88577e11a34c847236f71f60.jpg",
     ],
   },
   {
@@ -1301,9 +1390,10 @@ const hostels = [
     rating: 4.1,
     availableRooms: Math.floor(Math.random() * 25),
     images: [
-      "https://via.placeholder.com/300",
-      "https://via.placeholder.com/300",
-      "https://via.placeholder.com/300",
+      "https://i.pinimg.com/736x/3a/3b/82/3a3b826fe55298288c189da4e80727db.jpg",
+      "https://i.pinimg.com/736x/ae/99/d8/ae99d84f62499dbb4227f87d27bba127.jpg",
+      "https://i.pinimg.com/736x/29/6b/6e/296b6e549bdc349d6347f3a01d0e3815.jpg",
+      "https://i.pinimg.com/736x/a4/f5/b6/a4f5b61d1f1277f9091f9fd57eeb92c0.jpg",
     ],
   },
   {
@@ -1326,9 +1416,12 @@ const hostels = [
     rating: 4.5,
     availableRooms: Math.floor(Math.random() * 25),
     images: [
-      "https://via.placeholder.com/300",
-      "https://via.placeholder.com/300",
-      "https://via.placeholder.com/300",
+      "https://www.roadaffair.com/wp-content/uploads/2023/08/flow-spaces-hostel-budapest.webp",
+      "https://www.roadaffair.com/wp-content/uploads/2023/08/maverick-city-lodge-budapest.webp",
+      "https://thumbs.dreamstime.com/b/backpackers-hostel-modern-bunk-beds-dorm-room-twelve-people-inside-79935795.jpg",
+"https://i.pinimg.com/736x/49/dc/c0/49dcc0145a21e6116139d67f096c35fd.jpg",
+      "https://www.roadaffair.com/wp-content/uploads/2023/08/avenue-hostel-budapest.webp",
+
     ],
   },
   {
@@ -1351,9 +1444,11 @@ const hostels = [
     rating: 4.6,
     availableRooms: Math.floor(Math.random() * 25),
     images: [
-      "https://via.placeholder.com/300",
-      "https://via.placeholder.com/300",
-      "https://via.placeholder.com/300",
+      "https://i.pinimg.com/736x/3a/3b/82/3a3b826fe55298288c189da4e80727db.jpg",
+      "https://i.pinimg.com/736x/ae/99/d8/ae99d84f62499dbb4227f87d27bba127.jpg",
+      "https://i.pinimg.com/736x/5d/d2/1a/5dd21a13b680911cf5d167ed0ab26008.jpg",
+      "https://i.pinimg.com/736x/29/6b/6e/296b6e549bdc349d6347f3a01d0e3815.jpg",
+      "https://i.pinimg.com/736x/a4/f5/b6/a4f5b61d1f1277f9091f9fd57eeb92c0.jpg",
     ],
   },
 ];

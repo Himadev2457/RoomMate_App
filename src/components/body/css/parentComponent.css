@@ -4,12 +4,16 @@
   width: 100%;
 }
 
+#parentDiv h2{
+  margin-bottom: 20px;
+}
+
 #Hostel-Card-Container {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   flex-wrap: wrap;
-  gap: 20px;
   width: 100%;
+  gap: 2%;
 }
 
 /* Heading Style */
@@ -17,7 +21,7 @@ h2 {
   font-size: 24px;
   font-weight: bold;
   text-align: center;
-  color: #000000;
+  color: #ff6200;
 }
 
 /* Style for individual hostel cards */
@@ -32,7 +36,6 @@ h2 {
   border-radius: 8px;
   background-color: #f9f9f9;
   transition: box-shadow 0.3s ease;
-  max-width: 400px;
   cursor: pointer;
 }
 
@@ -95,6 +98,7 @@ h2 {
   width: 100%;
   max-width: 300px;
   height: auto;
+  max-height: 250px;
   border-radius: 5px;
   margin-top: 15px;
 }
@@ -222,3 +226,4 @@ ul::-webkit-scrollbar {
   font-size: 16px;
   color: #888;
 }
+

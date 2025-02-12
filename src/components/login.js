@@ -95,12 +95,11 @@
 
 // export default Login;
 
-
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { signInWithEmailAndPassword } from "firebase/auth";
 import { NavLink } from "react-router-dom";
-import { auth, db, doc, getDoc } from "../firebase/firebase"; // Updated Import
+import { auth, db, doc, getDoc } from "../firebase/firebase"; // Removed unused imports
 import "./login.css";
 import Shimmer from "./shimmer";
 
@@ -134,7 +133,11 @@ const Login = () => {
     setIsLoading(true);
 
     try {
-      const userCredential = await signInWithEmailAndPassword(auth, formData.email, formData.password);
+      const userCredential = await signInWithEmailAndPassword(
+        auth,
+        formData.email,
+        formData.password
+      );
       const user = userCredential.user;
 
       // ✅ Fetch user details from Firestore
@@ -148,7 +151,6 @@ const Login = () => {
         setIsLoading(false);
         navigate("/home");
       }, 1000);
-
     } catch (err) {
       setIsLoading(false);
       setError("Invalid email or password. Please try again.");

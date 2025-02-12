@@ -33,7 +33,7 @@ const ParentComponent = ({ filteredHostels }) => {
                 </span>
               </h3>
               <img
-                src="https://placehold.co/image"
+                src={hostel.images[0]}
                 alt={`${hostel.name} "image"`}
                 onError={(e) =>
                   (e.currentTarget.src = "https://placehold.co/200x200")
