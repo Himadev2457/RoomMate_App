@@ -330,16 +330,24 @@
 // export default Login;
 
 
+
+
+
+
+
+
+
+
+
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { signInWithEmailAndPassword } from "firebase/auth";
 import { NavLink } from "react-router-dom";
-import { auth, db } from "../firebase/firebase";
-import { doc, getDoc } from "firebase/firestore";
+import { auth } from "../firebase/firebase"; // Firestore is removed
 import "./login.css";
 import Shimmer from "./shimmer";
 
-const Login = ({ setUsername }) => {
+const Login = () => {
   const [formData, setFormData] = useState({
     email: "",
     password: "",
@@ -349,11 +357,12 @@ const Login = ({ setUsername }) => {
   const [isLoading, setIsLoading] = useState(false);
   const navigate = useNavigate();
 
+  // Handle input changes
   const handleChange = (e) => {
-    const { name, value } = e.target;
-    setFormData({ ...formData, [name]: value });
+    setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
+  // Handle form submission
   const handleSubmit = async (e) => {
     e.preventDefault();
 
@@ -364,27 +373,20 @@ const Login = ({ setUsername }) => {
     }
 
     setError("");
-    setSuccess("Processing login... Please wait.");
+    setSuccess("Logging in... Please wait.");
     setIsLoading(true);
 
     try {
-      const userCredential = await signInWithEmailAndPassword(
-        auth,
-        formData.email,
-        formData.password
-      );
+      // Firebase login
+      const userCredential = await signInWithEmailAndPassword(auth, formData.email, formData.password);
       const user = userCredential.user;
 
-      const userDocRef = doc(db, "users", user.uid);
-      const userDocSnap = await getDoc(userDocRef);
+      console.log("User logged in:", user);
 
-      if (userDocSnap.exists()) {
-        const userData = userDocSnap.data();
-        setUsername(userData.name || "User");
-        localStorage.setItem("username", userData.name || "User");
-      } else {
-        console.log("No user data found in Firestore");
-      }
+      // Store user session
+      localStorage.setItem("username", user.displayName || "User");
+      localStorage.setItem("userEmail", user.email);
+      localStorage.setItem("userId", user.uid);
 
       setSuccess("Login successful! Redirecting...");
       setTimeout(() => {
@@ -392,6 +394,7 @@ const Login = ({ setUsername }) => {
         navigate("/home");
       }, 1000);
     } catch (err) {
+      console.error("Firebase Auth Error:", err);
       setIsLoading(false);
       setError("Invalid email or password. Please try again.");
       setSuccess("");
@@ -430,9 +433,7 @@ const Login = ({ setUsername }) => {
                 required
               />
             </div>
-            <button type="submit" className="button-login">
-              Login
-            </button>
+            <button type="submit" className="button-login">Login</button>
           </form>
           <p className="signup-link">
             Don't have an account? <NavLink to="/signup">Sign up here</NavLink>
