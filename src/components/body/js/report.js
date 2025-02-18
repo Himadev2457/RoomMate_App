@@ -210,8 +210,8 @@ const Report = () => {
         <h2>Get in touch today</h2>
         <p>We appreciate your feedback and are happy to help. Reach out to us anytime!</p>
         <div className="contact-details">
-          <p><strong>Email:</strong> contact@company.com</p>
-          <p><strong>Phone:</strong> (123) 123-3213</p>
+          <p><strong>Email:</strong> contact@roommate.com</p>
+          <p><strong>Phone:</strong> +91 (630) 782-3213</p>
         </div>
       </div>
 

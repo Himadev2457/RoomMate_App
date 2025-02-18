@@ -1,9 +1,11 @@
 import React from "react";
 import "../css/about.css";
 import { FaEnvelope, FaInfoCircle, FaStar } from "react-icons/fa";
-import video from "../../../assets/video/about.mp4";
+// import video from "../../../assets/video/about.mp4";
+import Logo from "../../../assets/images/logo.png";
 
 const About = () => {
+  const fallbackImageSrc = Logo;
   return (
     <div className="about-container">
       <div className="innerCon">
@@ -17,9 +19,22 @@ const About = () => {
 
         <section className="video-section">
         <div className="video-placeholder">
-        <video src={video} autoPlay loop muted>
+        {/* {<video src={video} autoPlay loop muted>
           Your browser does not support the video tag.
-        </video>
+        </video>?{<img src:""/>}:{}} */}
+        
+        <video
+                src={"video"}
+                controls
+                autoPlay
+                loop
+                muted
+                onError={(e) => {
+                    e.target.outerHTML = `<img src="${fallbackImageSrc}" class="fallback"  " alt="Fallback Image" />`;
+                }}
+            >
+                Your browser does not support the video tag.
+            </video>
       </div>
         </section>
 
