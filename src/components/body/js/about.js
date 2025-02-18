@@ -57,16 +57,16 @@ const About = () => {
           <h2>Gallery</h2>
           <div className="image-gallery">
             <div className="image-item">
-              <img src="https://placehold.co/200x200" alt="Feature 1" />
+              <img src="https://i.pinimg.com/originals/4f/4c/13/4f4c132ea7af64d2eb955bfa22a2ccf3.jpg" alt="Feature 1" />
               <div className="image-text">Spacious & Comfortable</div>
             </div>
             <div className="image-item">
-              <img src="https://placehold.co/200x200" alt="Feature 2" />
+              <img src="https://static.dezeen.com/uploads/2013/06/dezeen_Emanuel-Hostel-by-Lana-Vitas-Gruic_ss_1.jpg" alt="Feature 2" />
               <div className="image-text">Modern Amenities</div>
             </div>
             <div className="image-item">
               <img
-                src="https://placehold.co/200x200"
+                src="https://www.rikdeveloper.com/wp-content/uploads/2024/11/DALL%C2%B7E-2024-11-13-16.30.00-An-image-illustrating-the-importance-of-location-in-real-estate-showing-a-detailed-map-with-a-highlighted-pin-or-marker-on-a-prime-spot-surrounded-b.webp"
                 alt="Feature 3"
                 onError={(e) =>
                   (e.currentTarget.src = "https://placehold.co/200x200")
