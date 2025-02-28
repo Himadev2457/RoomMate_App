@@ -77,7 +77,7 @@ const UserMenu = ({ username, setUsername }) => {
     try {
       await signOut(auth);
       setUsername("");
-      localStorage.removeItem("username");
+      localStorage.removeItem("userEmail");
       navigate("/login");
     } catch (error) {
       console.error("Logout failed:", error);

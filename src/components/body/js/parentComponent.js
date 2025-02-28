@@ -22,9 +22,9 @@ const ParentComponent = ({ filteredHostels }) => {
               className="hostel-card"
               onClick={() => handleCardClick(hostel)} // Handle card click
             >
-              <h3>
+              <h3 >
                 {hostel.name}{" "}
-                <span>
+                <span className="bounce-on-hover">
                   {hostel.gender === "Male" ? (
                     <FaMale style={{ color: "blue" }} />
                   ) : (

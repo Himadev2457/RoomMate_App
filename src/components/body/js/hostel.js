@@ -67,7 +67,8 @@ const Hostel = () => {
                 onError={(e) =>
                   (e.currentTarget.src = "https://placehold.co/800x600")
                 }
-              />
+              /><div className="hostel-image-text">Swipe to see the images...</div>
+
             </SwiperSlide>
           ))}
         </Swiper>
@@ -75,6 +76,7 @@ const Hostel = () => {
         ) : (
           <p>No images available</p>
         )}
+        
       </div>
 
       {/* Price and Available Rooms */}

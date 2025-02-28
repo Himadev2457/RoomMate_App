@@ -204,7 +204,7 @@ import Logo from "../../assets/images/logo.png";
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
-  const [username, setUsername] = useState(localStorage.getItem("username") || "");
+  const [username, setUsername] = useState(localStorage.getItem("userEmail") || "");
 
   useEffect(() => {
     const handleResize = () => {
@@ -215,7 +215,7 @@ const Navbar = () => {
 
     const unsubscribe = onAuthStateChanged(auth, (user) => {
       if (user) {
-        const storedUsername = localStorage.getItem("username");
+        const storedUsername = localStorage.getItem("userEmail");
         setUsername(storedUsername || "User");
       } else {
         setUsername("");
