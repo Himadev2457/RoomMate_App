@@ -227,21 +227,27 @@ ul::-webkit-scrollbar {
   color: #888;
 }
 
-@keyframes shake {
+@keyframes bounce {
   0%, 100% {
-    transform: translateX(0);
+    transform: translateY(0) rotate(0deg);
   }
-  20% {
-    transform: translateX(-8px);
+  15% {
+    transform: translateY(-14px) rotate(-6deg) scale(1.05); /* Higher lift with slight zoom */
   }
-  40% {
-    transform: translateX(8px);
+  30% {
+    transform: translateY(6px) rotate(4deg) scale(0.98); /* Gentle bounce down & shrink */
+  }
+  45% {
+    transform: translateY(-10px) rotate(-3deg) scale(1.03); /* Mid bounce with slight lift */
   }
   60% {
-    transform: translateX(-6px);
+    transform: translateY(5px) rotate(2deg) scale(1); /* Subtle downward motion */
   }
-  80% {
-    transform: translateX(6px);
+  75% {
+    transform: translateY(-6px) rotate(-2deg) scale(1.02); /* Final small bounce */
+  }
+  90% {
+    transform: translateY(3px) rotate(1deg) scale(1); /* Soft settling motion */
   }
 }
 
@@ -250,5 +256,5 @@ ul::-webkit-scrollbar {
 }
 
 .hostel-card:hover .bounce-on-hover {
-  animation: shake 0.5s ease-in-out infinite !important;
+  animation: bounce 1.5s infinite ease-in-out  !important;
 }
