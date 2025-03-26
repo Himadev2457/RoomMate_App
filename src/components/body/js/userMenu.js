@@ -101,8 +101,8 @@ const UserMenu = ({ username, setUsername }) => {
 
   return (
     <div className="user-menu" ref={menuRef}>
-      <div className="user-initial-circle" onClick={toggleMenu}>
-        {username ? username.charAt(0).toUpperCase() : "G"}
+      <div className="nav-btn profile-btn" onClick={toggleMenu}>
+        PROFILE
       </div>
       {menuOpen && (
         <div className="dropdown-menu">
@@ -112,7 +112,7 @@ const UserMenu = ({ username, setUsername }) => {
         </div>
       )}
     </div>
-  );
+  );  
 };
 
 export default UserMenu;

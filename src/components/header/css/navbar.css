@@ -54,6 +54,7 @@
   .nav-btn:hover {
     color: #FF6347;
     border: 0.001px solid #FF6347;
+    cursor: pointer;
   }
   
   /* Mobile Menu Styling */
