@@ -121,7 +121,7 @@
 @media (max-width: 768px) {
   .hostel-details-container {
     padding: 15px;
-    margin-top: 80px; /* Adjusted for smaller screens */
+    margin-top: 70px; /* Adjusted for smaller screens */
   }
 
   .back-button {
@@ -194,7 +194,7 @@
 @media (max-width: 1024px) {
   .hostel-details-container {
     padding: 18px;
-    margin-top: 30px;
+    margin-top: 70px;
   }
 
   .back-button {
