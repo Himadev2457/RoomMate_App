@@ -1,6 +1,6 @@
 import React from "react";
 import "../css/about.css";
-import { FaEnvelope, FaInfoCircle, FaStar } from "react-icons/fa";
+import { FaStar, FaInfoCircle, FaEnvelope, FaMapMarkerAlt, FaLock, FaUsers } from "react-icons/fa";
 // import video from "../../../assets/video/about.mp4";
 import Logo from "../../../assets/images/logo.png";
 
@@ -39,34 +39,34 @@ const About = () => {
         </section>
 
         <section className="features-section">
-          <h2>Features</h2>
-          <ul className="features-list">
+    <h2>Features</h2>
+    <ul className="features-list">
         <li>
-          <FaStar className="icon" />
-          <span className="text">Comprehensive listings of hostels</span>
+            <FaMapMarkerAlt className="icon" />
+            <span className="text">Find hostels in your <b>preferred location 📍</b></span>
         </li>
         <li>
-          <FaInfoCircle className="icon" />
-          <span className="text">Detailed information and reviews</span>
+            <FaInfoCircle className="icon" />
+            <span className="text">Verified reviews & <b>authentic hostel details 🏠</b></span>
         </li>
         <li>
-          <FaEnvelope className="icon" />
-          <span className="text">Easy contact with hostel owners</span>
+            <FaEnvelope className="icon" />
+            <span className="text">Instantly <b>contact owners 📩</b> via email or phone</span>
         </li>
         <li>
-          <FaStar className="icon" />
-          <span className="text">Comprehensive listings of hostels</span>
+            <FaUsers className="icon" />
+            <span className="text">Check for <b>roommate preferences 👫</b> before booking</span>
         </li>
         <li>
-          <FaInfoCircle className="icon" />
-          <span className="text">Detailed information and reviews</span>
+            <FaLock className="icon" />
+            <span className="text"><b>Secure bookings 🔒</b> with trusted payments</span>
         </li>
         <li>
-          <FaEnvelope className="icon" />
-          <span className="text">Easy contact with hostel owners</span>
+            <FaStar className="icon" />
+            <span className="text">Top-rated hostels based on <b>student ratings ⭐</b></span>
         </li>
-      </ul>
-        </section>
+    </ul>
+</section>
 
         <section className="gallery-section">
           <h2>Gallery</h2>

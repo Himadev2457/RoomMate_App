@@ -52,47 +52,95 @@
 }
 
 /* Features Section */
-.features-list {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    gap: 30px;
-
-  }
-  
-  .features-list li {
-    font-size: 1.2rem;
-    margin: 10px 0;
-    display: flex;
-    flex-direction: column; /* Arrange items vertically */
-    align-items: center;
-    justify-content: center;
-    background: linear-gradient(5deg, #ff8800, #ff9900); /* Gradient background */
-    color: white; /* Button text color */
-    border: none;
-    padding: 10px;
-    cursor: default; /* Change cursor to default */
+  .features-section {
     text-align: center;
-    border-radius: 5px; /* Rounded corners */
-    transition: background-color 0.3s; /* Smooth hover transition */
-  }
-  
-  .features-list li .icon {
-    margin-bottom: 5px; /* Space between icon and text */
-  }
-  
-  .features-list li:hover {
-    background: linear-gradient(90deg,  #ffaf00, #ffd700); /* Gradient from deep orange to light orange */
-    color: #fff; /* Change text color for better contrast */
-    transition: background 0.3s ease-in-out;
-   
+    padding: 40px 20px;
 }
 
-  
-  
-.icon {
-    color: #ff6600;
-    margin-right: 10px;
+.features-list {
+    display: flex;
+    flex-wrap: wrap; /* Ensures items wrap on smaller screens */
+    justify-content: center;
+    gap: 20px;
+    padding: 0;
+    list-style: none;
+    max-width: 1200px;
+    margin: auto;
+    min-height: 300px; /* Adds a minimum height for better spacing */
+    align-items: center; /* Ensures items align properly */
+}
+
+
+.features-list li {
+    font-size: 1.2rem;
+    width: calc(33.33% - 20px); /* Three items per row */
+    min-width: 250px; /* Prevents shrinking too much */
+    flex: 1 1 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #ff8800, #ff9900);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 12px;
+    transition: transform 0.3s ease-in-out, background 0.3s ease-in-out;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.features-list li:hover {
+    background: linear-gradient(135deg, #ffaf00, #ffd700);
+    transform: translateY(-5px); /* Lifting effect */
+}
+
+.features-list li .icon {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: white;
+    transition: transform 0.3s ease-in-out, color 0.3s;
+}
+
+.features-list li:hover .icon {
+    transform: scale(1.2);
+    color: #fff7d1; /* Light gold */
+}
+
+.features-list li .text {
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+/* 🌍 Responsive Design */
+@media (max-width: 1024px) {
+    .features-list {
+        gap: 15px;
+    }
+
+    .features-list li {
+        width: calc(50% - 15px); /* Two per row */
+    }
+}
+
+@media (max-width: 768px) {
+    .features-list li {
+        width: 80%; /* Single column for better spacing */
+    }
+}
+
+@media (max-width: 480px) {
+    .features-list li {
+        width: 100%; /* Full width on small screens */
+        padding: 15px;
+    }
+
+    .features-list li .icon {
+        font-size: 2rem;
+    }
+
+    .features-list li .text {
+        font-size: 1rem;
+    }
 }
 
 /* Gallery Section */
@@ -158,8 +206,7 @@
 
 .fallback {
     width: 80%;
-    height: 300px;
-    /* object-fit: cover; Ensure the image covers the container without distortion */
+    object-fit: cover;  /*Ensure the image covers the container without distortion */
     transition: transform 0.3s ease-in-out; /* Add a transition for smooth effect */
     filter: grayscale(100%);
 }

@@ -267,16 +267,7 @@
 .hostel-image {
   width: 100%;
   height: auto;
-  /* -webkit-mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
-  mask-image: linear-gradient(to bottom, rgb(250, 96, 0), rgba(0, 0, 0, 0)); */
-  transition: mask-image 0.3s ease, -webkit-mask-image 0.3s ease; /* Smooth transition */
 }
-
-.hostel-image:hover {
-  -webkit-mask-image: none;
-  mask-image: none;
-}
-
 
 /* Image Slider Container */
 .image-slider {
@@ -302,6 +293,28 @@
 
   display: block;
   margin: auto;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .image-slider {
+    width: 70vw;
+    height: 400px; /* Reduce height for tablets */
+  }
+}
+
+@media (max-width: 768px) {
+  .image-slider {
+    width: 90vw;
+    height: 350px; /* Reduce height for mobile */
+  }
+}
+
+@media (max-width: 480px) {
+  .image-slider {
+    width: 100%;
+    height: 300px; /* Further reduce height for smaller screens */
+  }
 }
 
 .hostel-image-text {

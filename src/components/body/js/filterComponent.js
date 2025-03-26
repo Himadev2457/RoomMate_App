@@ -8,8 +8,8 @@ const FilterComponent = ({ onApplyFilters }) => {
   const [rating, setRating] = useState(0);
   const [selectedServices, setSelectedServices] = useState([]);
   const [hostelType, setHostelType] = useState("");
-  const [isExpanded, setIsExpanded] = useState(true);
-  const [isActive, setIsActive] = useState(false);
+  const [isExpanded, setIsExpanded] = useState(false);
+  const [isActive, setIsActive] = useState(true);
 
   // Combined toggle function
   const handleClick = () => {
@@ -114,7 +114,7 @@ const FilterComponent = ({ onApplyFilters }) => {
         onClick={handleClick}
         ref={buttonRef}
       >
-        <FaSlidersH /> Filters
+        {isActive ?  <><FaSlidersH /> Filters</> : "✖Close" }
       </button>
 
       {/* Filter Container */}
