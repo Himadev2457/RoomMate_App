@@ -1,59 +1,108 @@
-/* General shimmer effect styling */
-.shimmer-wrapper {
+.shimmer-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+  margin-top: 50px;
+}
+
+.shimmer-card {
+  width: 250px;
+  height: 350px;
+  background: #f6f7f8;
+  border-radius: 10px;
+  padding: 15px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.shimmer-image {
+  width: 200px;
+  height: 150px;
+  background: linear-gradient(90deg, #e0e0e0 25%, #f6f6f6 50%, #e0e0e0 75%);
+  background-size: 400% 100%;
+  animation: shimmer-animation 3s infinite;
+  border-radius: 10px;
+}
+
+.shimmer-text {
+  width: 80%;
+  height: 15px;
+  background: linear-gradient(90deg, #e0e0e0 25%, #f6f6f6 50%, #e0e0e0 75%);
+  background-size: 400% 100%;
+  animation: shimmer-animation 3s infinite;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.shimmer-title {
+  height: 20px;
+  width: 60%;
+}
+
+.shimmer-button {
+  width: 50%;
+  height: 35px;
+  background: linear-gradient(90deg, #e0e0e0 25%, #f6f6f6 50%, #e0e0e0 75%);
+  background-size: 400% 100%;
+  animation: shimmer-animation 3s infinite;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+@keyframes shimmer-animation {
+  0% {
+    background-position: -100% 0;
+  }
+  100% {
+    background-position: 100% 0;
+  }
+}
+
+
+/* Navbar Shimmer Effect */
+.shimmer-navbar {
   width: 100%;
-  max-width: 450px;
-  background-color: #ffffff;
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
-  border-radius: 1rem;
-  margin: auto;
-  animation: fadeIn 0.8s ease-in-out;
+  height: 60px;
+  background: #f6f7f8;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
 }
 
-.shimmer {
-  width: 100%;
-  height: 100%;
-  animation: shimmer 1.5s infinite linear;
-  background: linear-gradient(
-    90deg,
-    rgba(255, 255, 255, 0.3) 25%,
-    rgba(200, 200, 200, 0.6) 50%,
-    rgba(255, 255, 255, 0.3) 75%
-  );
-  background-size: 200% 100%;
-  border-radius: 8px;
+.shimmer-logo {
+  width: 120px;
+  height: 40px;
+  background: linear-gradient(90deg, #e0e0e0 25%, #f0f0f0 50%, #e0e0e0 75%);
+  background-size: 400% 100%;
+  animation: shimmer-animation 3s infinite;
+  border-radius: 5px;
 }
 
-/* Individual skeleton loaders */
-.skeleton {
-  background: #f2f2f2;
-  border-radius: 8px;
-  margin-bottom: 1.2rem;
+.shimmer-nav-links {
+  display: flex;
+  gap: 20px;
 }
 
-.skeleton-title {
-  height: 2rem;
-  width: 70%;
-  margin-bottom: 1.5rem;
+.shimmer-nav-item {
+  width: 80px;
+  height: 20px;
+  background: linear-gradient(90deg, #e0e0e0 25%, #f0f0f0 50%, #e0e0e0 75%);
+  background-size: 400% 100%;
+  animation: shimmer-animation 3s infinite;
+  border-radius: 5px;
 }
 
-.skeleton-input {
-  height: 1.8rem;
-  width: 100%;
-  margin-bottom: 1.2rem;
-}
-
-.skeleton-button {
-  height: 2.8rem;
-  width: 100%;
-  border-radius: 8px;
-}
-
-/* Shimmer animation */
-@keyframes shimmer {
+/* Shimmer Animation */
+@keyframes shimmer-animation {
   0% {
     background-position: -200% 0;
   }
@@ -62,12 +111,114 @@
   }
 }
 
-/* Fade-in effect */
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
+
+/* Tablet (max-width: 768px) */
+@media screen and (max-width: 768px) {
+  .shimmer-container {
+    gap: 12px;
+    padding: 12px;
   }
-  100% {
-    opacity: 1;
+
+  .shimmer-card {
+    width: 85%;
+    height: 320px;
+    padding: 12px;
+  }
+
+  .shimmer-image {
+    width: 100%;
+    height: 140px;
+  }
+
+  .shimmer-text {
+    width: 90%;
+    height: 14px;
+  }
+
+  .shimmer-title {
+    width: 70%;
+    height: 18px;
+  }
+
+  .shimmer-button {
+    width: 60%;
+    height: 32px;
+  }
+
+  /* Navbar */
+  .shimmer-navbar {
+    height: 55px;
+    padding: 10px 15px;
+  }
+
+  .shimmer-logo {
+    width: 110px;
+    height: 38px;
+  }
+
+  .shimmer-nav-links {
+    gap: 12px;
+  }
+
+  .shimmer-nav-item {
+    width: 75px;
+    height: 18px;
+  }
+}
+
+/* Mobile (max-width: 480px) */
+@media screen and (max-width: 480px) {
+  .shimmer-container {
+    gap: 8px;
+    padding: 10px;
+    width: 90%;
+  }
+
+  .shimmer-card {
+    width: 100%; /* Full width */
+    height: 320px; /* Adjust height */
+    padding: 8px; /* Reduce padding to maximize space */
+  }
+
+  .shimmer-image {
+    width: 100%;
+    height: 120px;
+  }
+
+  .shimmer-text {
+    width: 95%;
+    height: 12px;
+  }
+
+  .shimmer-title {
+    width: 75%;
+    height: 16px;
+  }
+
+  .shimmer-button {
+    width: 65%;
+    height: 28px;
+  }
+
+  /* Navbar */
+  .shimmer-navbar {
+    height: 80px;
+    padding: 8px 10px;
+  }
+
+  .shimmer-logo {
+    width: 150px;
+    height: 36px;
+  }
+
+  .shimmer-nav-links {
+    flex-direction: column;
+    gap: 5px;
+
+  }
+
+  .shimmer-nav-item {
+    width: 50px;
+    height: 8px;
   }
 }

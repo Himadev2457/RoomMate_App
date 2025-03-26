@@ -342,8 +342,10 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { signInWithEmailAndPassword } from "firebase/auth";
+import { createUserWithEmailAndPassword } from "firebase/auth";
+import { doc, setDoc } from "firebase/firestore";
+import { auth, db } from "../firebase/firebase"; // Ensure correct import
 import { NavLink } from "react-router-dom";
-import { auth } from "../firebase/firebase"; // Firestore is removed
 import "./login.css";
 import Shimmer from "./shimmer";
 
@@ -401,6 +403,38 @@ const Login = () => {
     }
   };
 
+  
+
+  const handleGuestLogin = async () => {
+      setError("");
+      setSuccess("Processing guest login... Please wait.");
+      setIsLoading(true);
+  
+      try {
+        const guestEmail = `guest+${Date.now()}@example.com`;
+        const guestPassword = Math.random().toString(36).slice(-8);
+        
+        const userCredential = await createUserWithEmailAndPassword(auth, guestEmail, guestPassword);
+        const user = userCredential.user;
+        
+        await setDoc(doc(db, "users", user.uid), {
+          email: guestEmail,
+          role: "guest",
+          createdAt: new Date().toISOString(),
+        });
+  
+        setSuccess("Guest login successful! Redirecting...");
+        setTimeout(() => {
+          setIsLoading(false);
+          navigate("/home");
+        }, 1000);
+      } catch (err) {
+        setIsLoading(false);
+        setError("Guest login failed. Please try again.");
+        setSuccess("");
+      }
+    };
+
   return (
     <div className="flex-center">
       {isLoading ? (
@@ -434,6 +468,9 @@ const Login = () => {
               />
             </div>
             <button type="submit" className="button-login">Login</button>
+            <button onClick={handleGuestLogin} className="button-guest-login">
+            Continue as Guest
+          </button>
           </form>
           <p className="signup-link">
             Don't have an account? <NavLink to="/signup">Sign up here</NavLink>
