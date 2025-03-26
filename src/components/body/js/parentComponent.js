@@ -7,6 +7,8 @@ const ParentComponent = ({ filteredHostels }) => {
   const navigate = useNavigate();
 
   const handleCardClick = (hostel) => {
+
+    window.scrollTo({ top: 0, behavior: "smooth" });
     // Navigate to the selected hostel's details page
     navigate(`/hostel/${encodeURIComponent(hostel.name)}`, { state: { hostel } });
   };

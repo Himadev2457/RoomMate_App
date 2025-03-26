@@ -266,7 +266,9 @@
 /* Image Styling */
 .hostel-image {
   width: 100%;
-  height: auto;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
 }
 
 /* Image Slider Container */
@@ -274,7 +276,6 @@
   width: 50vw;
   height: 500px; /* Fixed height */
   border-radius: 20px;
-
   display: flex;
   justify-content: center; /* Center horizontally */
   align-items: center; /* Center vertically */
@@ -284,13 +285,12 @@
 
 /* Slider Images */
 .slider-image {
-  width: auto; /* Auto width to maintain aspect ratio */
+  width: 100%; /* Auto width to maintain aspect ratio */
   height: 100%; /* Ensures full height coverage */
   max-width: 100%; /* Ensures it doesn’t exceed the container */
   object-fit: cover; /* Crops to fill the container without distortion */
   object-position: center; /* Centers the focal point */
   border-radius: 20px;
-
   display: block;
   margin: auto;
 }
@@ -320,10 +320,10 @@
 .hostel-image-text {
   position: absolute;
   width: 100%;
-  bottom: 30px;
+  bottom: 5px;
   background: rgba(0, 0, 0, 0.284);
   color: #ffffff;
   padding: 10px;
   font-size: 1rem;
-  text-align: end;
+  text-align: center;
 }
